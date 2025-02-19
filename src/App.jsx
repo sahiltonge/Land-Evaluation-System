@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <title>Land Evaluation System</title>
       <h1>Land Evaluation System</h1>
       
       <form onSubmit={handleCalculate}>
@@ -71,9 +72,12 @@ function App() {
         </div>
       )}
 
+    <div className='Map'>
       {/* Google Map Component */}
       <h2>Location Map</h2>
-      <MapComponent />
+      < MapComponent />
+    </div>
+      
     </div>
   );
 }
